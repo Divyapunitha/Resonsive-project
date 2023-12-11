@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class=" sub-header">
+        <nav>
+            <a href="index1.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times " onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- course -->
+
+    <section class="course">
+        <h1>Course We offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam aut quasi debitis, delectus nesciunt voluptates possimus
+                    ipsum ipsa eos ea deleniti ut doloribus reiciendis.
+                    Atque earum dolore unde expedita fugiat.</p>
+
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam aut quasi debitis, delectus nesciunt voluptates possimus
+                    ipsum ipsa eos ea deleniti ut doloribus reiciendis.
+                    Atque earum dolore unde expedita fugiat.</p>
+
+            </div>
+
+            <div class="course-col">
+                <h3>PostGraduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Magnam aut quasi debitis, delectus nesciunt voluptates possimus
+                    ipsum ipsa eos ea deleniti ut doloribus reiciendis.
+                    Atque earum dolore unde expedita fugiat.</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World Largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil possimus dolor excepturi magnam necessitatibus?
+                    Fugit exercitationem eius atque? Blanditiis quisquam non quaerat vitae et,
+                    temporibus modi maxime! Sed, vitae laborum!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deleniti quos dolor eveniet assumenda impedit consectetur? At tenetur illo pariatur vero? Harum
+                    eaque asperiores totam magni optio placeat ad eveniet et.
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   pellentesque alique turpis nulla </p>
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   pellentesque alique turpis nulla </p>
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   pellentesque alique turpis nulla </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nam architecto nemo officia non <br>aut magni explicabo veritatis atque.
+            Ipsam placeat nam enim, voluptates officiis dolor alias iusto non nobis?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+
+
+
+    </section>
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>

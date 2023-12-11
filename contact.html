@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <section class=" sub-header">
+        <nav>
+            <a href="index1.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times " onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- contact us-->
+
+    <section class="location">
+        <iframe src="https://maps.app.goo.gl/9W6tP4H3NSuQbg788" frameborder="0"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>BTM 2nd Stage</h5>
+                        <p>Banglore,karanataka</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>+91 9442595212</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>divyarajasekaran19@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text"name ="name=" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter Your subject" required>
+                <textarea rows="8" name="message"placeholder ="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">
+                    Send Message
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    </section>
+
+    
+
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus nam architecto nemo officia non <br>aut magni explicabo veritatis atque.
+            Ipsam placeat nam enim, voluptates officiis dolor alias iusto non nobis?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+
+
+
+
+    </section>
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navLinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>
